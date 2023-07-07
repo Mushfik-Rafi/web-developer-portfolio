@@ -10,7 +10,11 @@ nav{
      margin: 0px 200px ;
 }
 .header{
-    background-color: #FFF8F3;;
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .port-title{
     color: #181818;
@@ -46,10 +50,48 @@ nav a{
 
 }
 .banner{
-     padding:  30px 30px 30px  150px;
+     padding:  30px 30px 0px  150px;
      display: flex; 
      align-items: center;
+     justify-content: space-between;
+     
 }
 .profile{
     width: 500px;
+}
+.banner-text{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-heading{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.para{
+    margin-bottom: 18px;
+}
+.divi{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.sec-title{
+    color:  #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.sec-des{
+    color: #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
