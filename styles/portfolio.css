@@ -7,6 +7,10 @@ nav{
     display: flex;
      justify-content: space-between; 
     align-items: center;
+     margin: 0px 200px ;
+}
+.header{
+    background-color: #FFF8F3;;
 }
 .port-title{
     color: #181818;
@@ -40,4 +44,12 @@ nav a{
     text-decoration: none;
     color: #474747
 
+}
+.banner{
+     padding:  30px 30px 30px  150px;
+     display: flex; 
+     align-items: center;
+}
+.profile{
+    width: 500px;
 }
